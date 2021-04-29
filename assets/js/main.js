@@ -231,6 +231,7 @@
 
         if (answer.localeCompare(submission) == 0) {
             select('#captcha-message').innerHTML = 'You got it right. Good job!';
+            setTimeout({}, 3000);
             select('#captcha-input').value = '';
             select('#captcha-image').src = 'assets/img/captchas/' + randomImage() + '.png';
         } else {
