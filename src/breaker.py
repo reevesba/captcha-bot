@@ -173,7 +173,7 @@ class BreakerBot:
         # Submit the prediction
         captcha_input = driver.find_element_by_name("captcha-input")
         captcha_input.send_keys(pred)
-        captcha_input.submit()
+        captcha_input.click()
         time.sleep(5)
         driver.quit()
 
