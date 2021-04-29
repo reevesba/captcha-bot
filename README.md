@@ -49,7 +49,6 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -127,7 +126,8 @@ Executing this bot is very simple. There are three primary modules included. The
 
 The first step is to execute the driver program. 
 ```sh
-python3 src/main.py
+cd src
+python3 main.py
 ```
 
 You will be met with an interactive command line interface. 
