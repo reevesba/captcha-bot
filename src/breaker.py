@@ -171,7 +171,7 @@ class BreakerBot:
         pred = self.__predict_chars(char_images, model, label_binarizer)
 
         # Submit the prediction
-        captcha_input = driver.find_element_by_name("captcha-170")
+        captcha_input = driver.find_element_by_name("captcha-input")
         captcha_input.send_keys(pred)
         captcha_input.submit()
         time.sleep(5)
