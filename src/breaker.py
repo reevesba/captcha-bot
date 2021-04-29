@@ -157,11 +157,11 @@ class BreakerBot:
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
         driver = webdriver.Chrome(options=options)
-        driver.get("https://ml4cs.com/CAPTCHA/index/php/break-me-use-a-bot-to-crack-the-captcha/")
+        driver.get("https://reevesba.github.io/captcha-bot/")
         time.sleep(2)
 
         # Extract captcha image from page
-        captcha_image = driver.find_element_by_css_selector(".wpcf7-captcha-captcha-170")
+        captcha_image = driver.find_element_by_css_selector(".captcha-image")
         src = captcha_image.get_attribute("src")
         urllib.request.urlretrieve(src, "captcha.png")
 
