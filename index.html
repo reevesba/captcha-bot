@@ -53,6 +53,13 @@
                     <div id="captcha" class="captcha"><script>createCaptcha();</script></div>
                     <div class="input">
                         <input type="text" name="captcha-input" id="captcha-input" size="4"/>
+                        <script>
+                            let textBox = document.getElementById('captcha-input');
+                            textBox.addEventListener('keydown', (event) => {
+                                console.log(`key=${event.key},code=${event.code}`);
+                    
+                            });
+                        </script>
                     </div>
                     <div id="captcha-message" style="visibility: hidden;"><p>placeholder</p></div>
                     <div>
