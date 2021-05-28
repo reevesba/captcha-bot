@@ -29,7 +29,7 @@
     <a href="https://reevesba.github.io/captcha-bot/#doc"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/reevesba/captcha-bot">View Demo</a>
+    <a href="https://github.com/reevesba/captcha-bot/#demo">View Demo</a>
     ·
     <a href="https://github.com/reevesba/captcha-bot/issues">Report Bug</a>
     ·
@@ -53,6 +53,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This project aims to demonstrate how a captcha can be bypassed using a bot and machine learning methods. The captcha being fooled is [Really Simple CAPTCHA](https://wordpress.org/plugins/really-simple-captcha/). As noted on the site and implied by the name, this captcha is really simple and doesn't provide a strong level of security. Even so, this is a popular WordPress plugin with 700,000+ active installations :fearful:.
+
+### Demo
+<p align="center">
+  <a href="https://github.com/reevesba/captcha-bot">
+    <img src="assets/img/capbot.gif" alt="Logo">
+  </a>
+</p>
 
 ### Built With
 * [Keras](https://keras.io/)
